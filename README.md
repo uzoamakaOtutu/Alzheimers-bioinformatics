@@ -1,7 +1,8 @@
 # Alzheimer's Bioinformatics Project
 
 ## Overview
-Bioinformatics analysis of gene expression, biomarkers, pathway enrichment, and potential therapeutic targets in Alzheimer’s disease using publicly available datasets.
+Bioinformatics analysis of gene expression, biomarkers, pathway enrichment, and potential therapeutic targets in Alzheimer’s disease using publicly available datasets. 
+(GSE5281, GSE36980, GSE48350)
 
 ## Features
 - Differential gene expression analysis between Alzheimer’s and control samples
@@ -56,6 +57,7 @@ This executes all major analysis steps in sequence.
 ## Notes
 - Make sure to run the script in the root directory so relative paths resolve correctly.
 - The raw datasets in `data/raw/` are excluded from GitHub with `.gitignore` due to size.
+- Make sure to download the annotation files - GPL570-55999.txt and GPL6244.annot.txt
 
 ## License
 MIT License. See `LICENSE` file for details.
